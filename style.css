@@ -19,6 +19,18 @@ header > h1 {
 	font-family: Asap, sans-serif;
 }
 
+.time-clock {
+	margin: 15px auto;
+	border: 3px solid white;
+	border-radius: 4px;
+	text-align: center;
+	width: 110px;
+	color: white;
+	font-size: 20px;
+	padding: 5px 5px;
+	font-family: Asap, sans-serif;
+}
+
 .score-board {
 	margin: 20px auto;
 	border: 3px solid white;
@@ -84,7 +96,8 @@ header > h1 {
 
 .choice:hover {
 	cursor: pointer;
-	background: #21272E;
+	transform: scale(1.25);
+	background: #19272E;
 }
 
 #action-message {

@@ -73,7 +73,13 @@ function game(userChoice) {
 	}
 }
 
+function timer(seconds) {
+	setInterval(() => { seconds++;
+	document.getElementById("timer").innerHTML = "Time: " + seconds + "s";}, 1000);
+}
+
 function main() {
+	timer(0);
 	rock_div.addEventListener('click', () => game("r"));
 	paper_div.addEventListener('click', () => game("p"));
 	scissors_div.addEventListener('click', () => game("s"));
